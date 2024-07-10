@@ -111,7 +111,7 @@ lr_list = []
 best_loss = None
 temp_state_dict = None
 count = 0       # Счетчик эпох в которых модель не улучшалась
-old_best = None
+old_best = None     # Имя старого сохраненного файла для удаления
 
 for epoch in range(EPOCHS):
     # Тренировка модели
